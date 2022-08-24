@@ -1,0 +1,15 @@
+print('--------------------PRIMEIRO CÓDIGO--------------------------')
+print("Vamos ver a quantidade de caracteres que exitem no seu nome")
+Nome = input("Digite seu nome: ")
+print("Seu nome tem: %d" %len(Nome) + " Caracteres")
+
+print('--------------------SEGUNDO CÓDIGO--------------------------')
+print("Função de concatenação ")
+PrimeiroNome = input("Informe o seu Nome: ")
+Sobrenome = input("Informe o seu Sobrenome: ")
+print("Seu nome é: " + PrimeiroNome + ' ' + Sobrenome)
+
+print('--------------------TERCEIRO CÓDIGO--------------------------')
+Palavra = input("Escreva uma palavra: ")
+print("Vamos verificar qual a letra que se encontra na posição 2 da palavra (Lembre-se que a posição inicial é 0): ")
+print("A letra na posição 2 é: " + Palavra[2])
